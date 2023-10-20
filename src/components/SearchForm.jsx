@@ -14,7 +14,7 @@ const SearchForm = ({ onSearch }) => {
   const onSubmit = e => {
     e.preventDefault();
     const options = {
-      query: searchStr,
+      q: searchStr,
       searchOption,
     };
     onSearch(options);
